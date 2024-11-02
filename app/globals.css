@@ -65,4 +65,13 @@
         background-size: cover;
         font-family: "Ranga" !important;
     }
+
+    @media screen and (max-height: 800px) {
+        .chapter1BG {
+            background-image: url("./assets/chapters/bg/chapterBG.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            font-family: "Ranga" !important;
+        }
+    }
 }
