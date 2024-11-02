@@ -10,6 +10,12 @@
         font-family: "Manrope";
         overflow: hidden;
     }
+
+    @media screen and (max-height: 800px) {
+        body {
+            overflow: scroll !important;
+        }
+    }
 }
 
 @layer components {
