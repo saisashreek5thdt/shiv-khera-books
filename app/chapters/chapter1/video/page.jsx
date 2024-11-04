@@ -12,8 +12,8 @@ function VideoPage() {
 
     return (
         <>
-            <div className="w-full chapter1BG select-none">
-                <div className="h-screen flex items-center justify-center gap-4 transition-all duration-500">
+            <div className="w-full select-none">
+                <div className="h-screen chapter1BG flex items-center justify-center gap-4 transition-all duration-500">
                     <video
                         className="w-full max-w-2xl rounded-lg shadow-lg"
                         controls
