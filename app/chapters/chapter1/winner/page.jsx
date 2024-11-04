@@ -12,7 +12,7 @@ function WinnerAttitude() {
 
     return (
         <>
-            <div className="w-full chapter1BG select-none">
+            <div className="w-full chapter1BG sm:overflow-y-hidden md:overflow-hidden select-none">
                 <div className="h-screen flex flex-col items-center justify-center gap-4 transition-all duration-500">
                     <h1 className="text-7xl font-medium text-gray-500 text-center scale-in-ver-bottom textAnimation">
                         Importance of Attitude
