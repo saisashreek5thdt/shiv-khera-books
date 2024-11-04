@@ -14,7 +14,7 @@ function Menu() {
 
     return (
         <>
-            <div className="bg-[#e1dcd8] max-w-[85rem] h-screen mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="bg-[#e1dcd8] max-w-[85rem] h-screen mx-auto px-4 sm:px-6 lg:px-8 overflow-y-hidden">
                 <div className="grid md:grid-cols-2 gap-4 md:gap-8 xl:gap-20 md:items-center">
                     <div>
                         <Image
