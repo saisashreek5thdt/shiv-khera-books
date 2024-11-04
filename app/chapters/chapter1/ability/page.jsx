@@ -2,24 +2,27 @@
 import { useRouter } from "next/navigation";
 import React from "react";
 
-function WinnerAttitude() {
+function Ability() {
     const router = useRouter();
 
     const nextBtnHandler = (e) => {
         e.preventDefault();
-        router.push("/chapters/chapter1/ability");
+        router.push("/chapters/chapter1/video/");
     };
 
     return (
         <>
             <div className="w-full chapter1BG select-none">
                 <div className="h-screen flex flex-col items-center justify-center gap-4 transition-all duration-500">
-                    <h1 className="text-7xl font-medium text-gray-500 text-center scale-in-ver-bottom textAnimation">
-                        Importance of Attitude
-                    </h1>
-                    <h1 className="text-6xl font-medium text-gray-500 text-center scale-in-ver-bottom textAnimation">
-                        Winner&apos;s Edge
-                    </h1>
+                    <p className="text-4xl font-medium text-gray-500 text-center scale-in-ver-bottom textAnimation">
+                        Ability teaches us how we do,
+                    </p>
+                    <p className="text-4xl font-medium text-gray-500 text-center scale-in-ver-bottom textAnimation">
+                        motivation determines why we do,
+                    </p>
+                    <p className="text-4xl font-medium text-gray-500 text-center scale-in-ver-bottom textAnimation">
+                        and attitude decides how well we do.
+                    </p>
                 </div>
             </div>
             <div
@@ -32,4 +35,4 @@ function WinnerAttitude() {
     );
 }
 
-export default WinnerAttitude;
+export default Ability;
