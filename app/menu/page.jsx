@@ -51,7 +51,7 @@ function Menu() {
               <div className="flex flex-col gap-2 cursor-pointer">
                 <h1 className="text-lg font-medium">Chapter 2</h1>
                 <h1 className="text-3xl font-semibold">
-                  Buil A Positive Attitude
+                  Build A Positive Attitude
                 </h1>
                 <h1 className="text-2xl font-medium">
                   Reaching Your Destination
