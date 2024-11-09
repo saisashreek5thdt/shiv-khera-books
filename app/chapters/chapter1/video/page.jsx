@@ -1,4 +1,5 @@
 "use client";
+import VideoPlayer from "@/components/VideoPlayer";
 import { useRouter } from "next/navigation";
 import React from "react";
 
@@ -12,16 +13,9 @@ function VideoPage() {
 
     return (
         <>
-            <div className="w-full select-none">
+            <div className="w-full bg-chapterBG bg-cover select-none">
                 <div className="h-screen chapter1BG flex items-center justify-center gap-4 transition-all duration-500">
-                    <video
-                        className="w-full max-w-2xl rounded-lg shadow-lg"
-                        controls
-                        controlsList="nodownload"
-                    >
-                        <source src="/Demo.mp4" type="video/mp4" />
-                        Your browser does not support the video tag.
-                    </video>
+                    <VideoPlayer src={`/Demo.mp4`} />
                 </div>
             </div>
 
